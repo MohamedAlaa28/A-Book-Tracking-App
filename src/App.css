@@ -16,6 +16,11 @@ body, .app {
   padding: 10px 0;
   background: #2e7c31;
   text-align: center;
+  display: flex;
+  gap: 0.5%;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto 0; */
 }
 
 .list-books-title h1 {
@@ -24,6 +29,10 @@ body, .app {
   color: white;
 }
 
+.list-books-img{
+  width: 40px;
+  height: 40px;
+}
 .list-books-content {
   padding: 0 0 80px;
   flex: 1;
