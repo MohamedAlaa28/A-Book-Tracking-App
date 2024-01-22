@@ -1,6 +1,6 @@
 # MyReads Project
 
-This is the react project contains two pages first one to show the books with their authors and title and shelves with the capability to change the shelf of any book and the second one to be able to search for any book in the database and but it at any shelf you want
+This react project contains two pages first one shows the books with their authors and titles and shelves with the capability to change the shelf of any book and the second one can search for any book in the database but at any shelf you want
 
 ## Installation
 * requires [Node.js] to run
@@ -21,11 +21,12 @@ This is the react project contains two pages first one to show the books with th
     ├── App.js # This is the root of the app. Contains static HTML right now.
     ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
     ├── BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
-    ├── BooksList.js # this the books part in the app
-    ├── SearchBar.js # this is search bar part in the app
-    ├── SetShelf.js # this is the part in which distribute the books to their shelves
-    ├── ShelvesList.js # this is shelf part in the app
-    ├── icons # Helpful images for the app. Use at the discretion.
+    ├── BooksList.js # This is the books part of the app
+    ├── HomePage.js # This main page contains a navBar and SetShelf component
+    ├── SearchBar.js # This is the search bar part of the app
+    ├── SetShelf.js # This is the part in which distribute the books to their shelves
+    ├── ShelvesList.js # This is the shelf part in the app
+    ├── icons # Helpful images for the app. Use at your discretion.
     │   ├── add.svg
     │   ├── arrow-back.svg
     │   └── arrow-drop-down.svg
@@ -48,7 +49,7 @@ getAll()
 ```
 
 * Returns a Promise which resolves to a JSON object containing a collection of book objects.
-* This collection represents the books currently in the bookshelves in your app.
+* This collection represents the books currently on the bookshelves in your app.
 
 ### `update`
 
@@ -70,7 +71,7 @@ Method Signature:
 search(query)
 ```
 
-* query: `<String>`
+* Query: `<String>`
 * Returns a Promise which resolves to a JSON object containing a collection of a maximum of 20 book objects.
 * These books do not know which shelf they are on. They are raw results only. You'll need to make sure that books have the correct state while on the search page.
 
