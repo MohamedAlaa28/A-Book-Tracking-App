@@ -8,11 +8,10 @@ const HomePage = ({ books, updatedShelves }) => {
             <div className="list-books-content">
                 <div className="list-books list-books-title">
                     <img className='list-books-img' src='vectorStock.png' alt='vectorStock' />
-                    <h1>MyReads</h1>
+                    <h1>My Reads</h1>
                 </div>
             </div>
             {/* passing the data to the shelves */}
-            {/* {console.log(updatedShelves)} */}
             <SetShelf
                 books={books}
                 updatedShelves={updatedShelves}

@@ -1,4 +1,6 @@
-html, body, .root {
+html,
+body,
+.root {
   height: 100%;
 }
 
@@ -6,7 +8,8 @@ body {
   line-height: 1.5;
 }
 
-body, .app {
+body,
+.app {
   background: white;
 }
 
@@ -20,7 +23,7 @@ body, .app {
   gap: 0.5%;
   justify-content: center;
   align-items: center;
-  /* margin: auto 0; */
+  /* gap: 1em; */
 }
 
 .list-books-title h1 {
@@ -29,7 +32,7 @@ body, .app {
   color: white;
 }
 
-.list-books-img{
+.list-books-img {
   width: 40px;
   height: 40px;
 }
@@ -68,11 +71,11 @@ body, .app {
   height: 50px;
   border-radius: 50%;
   background: #2e7d32;
-  background-image: url('./icons/add.svg');
+  background-image: url("./icons/add.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 28px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-size: 0;
   outline: 0;
 }
@@ -80,7 +83,6 @@ body, .app {
 .open-search a:hover {
   background-color: rgb(0, 102, 0);
 }
-
 
 /* search page */
 
@@ -91,7 +93,7 @@ body, .app {
   left: 0;
   z-index: 5;
   display: flex;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 0 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 0 6px rgba(0, 0, 0, 0.23);
 }
 
 .search-books-input-wrapper {
@@ -113,8 +115,8 @@ body, .app {
   left: 15px;
   width: 50px;
   height: 53px;
-  background-image: url('./icons/arrow-back.svg');
-  background-color: #EFEFEF;
+  background-image: url("./icons/arrow-back.svg");
+  background-color: #efefef;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 28px;
@@ -123,7 +125,8 @@ body, .app {
   outline: none;
 }
 
-button,a:active {
+button,
+a:active {
   border: red;
   outline: none;
 }
@@ -180,11 +183,11 @@ button,a:active {
   height: 40px;
   border-radius: 50%;
   background: #60ac5d;
-  background-image: url('./icons/arrow-drop-down.svg');
+  background-image: url("./icons/arrow-drop-down.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .book-shelf-changer select {
@@ -197,7 +200,7 @@ button,a:active {
 /* book cover */
 
 .book-cover {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   background: #eee;
 }
 
