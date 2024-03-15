@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/book-tracking-app/static/css/main.e2948d14.css",
+    "main.css": "/book-tracking-app/static/css/main.84c8d720.css",
     "main.js": "/book-tracking-app/static/js/main.9cf7f690.js",
     "index.html": "/book-tracking-app/index.html",
     "static/media/arrow-back.svg": "/book-tracking-app/static/media/arrow-back.cd079cab42defead9875.svg",
     "static/media/add.svg": "/book-tracking-app/static/media/add.1b5d9b6afb5557f7992c.svg",
     "static/media/arrow-drop-down.svg": "/book-tracking-app/static/media/arrow-drop-down.4378492a3a09dbfc31ff.svg",
-    "main.e2948d14.css.map": "/book-tracking-app/static/css/main.e2948d14.css.map",
+    "main.84c8d720.css.map": "/book-tracking-app/static/css/main.84c8d720.css.map",
     "main.9cf7f690.js.map": "/book-tracking-app/static/js/main.9cf7f690.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2948d14.css",
+    "static/css/main.84c8d720.css",
     "static/js/main.9cf7f690.js"
   ]
 }
